@@ -1,0 +1,153 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* background-color: #F8f4f0; */
+}
+
+header img{
+  max-height: 729px;
+  max-width: 1120;
+  /* padding-bottom: 24px; */
+}
+
+header img + p{
+  padding-top: 24px;
+  text-align: center;
+}
+
+#PP1{
+  font-weight: bold;
+  font-size: 13px;
+  color: #E1624F;
+  text-transform: uppercase;
+  padding-bottom: 5px;
+}
+
+#PP2{
+  font-weight: bold;
+  font-size: 13px;
+  color: #E1624F;
+  text-transform: uppercase;
+  padding-bottom: 5px;
+}
+
+body {
+  padding: 88px 80px 137px 80px; 
+  background-color: #F8f4f0;
+  box-sizing: border-box; 
+ 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header, section, footer, .divider {
+  width: 100%;
+  max-width: 1120px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 28px;
+  object-fit: cover;
+}
+
+#conteudo{
+  box-sizing: border-box;
+  width: 100%;
+  text-align: justify;
+  font-size: 16px;
+}
+
+h1{
+  padding-bottom: 40px;
+}
+
+h2{
+  font-size: 32;
+  padding-bottom: 10px;
+}
+
+h2 + p{
+  padding-bottom: 64px;
+}
+
+h3{
+  font-size: 28;
+}
+
+h3,h4{
+  padding-top: 20px;
+  padding-bottom: 4px;
+}
+
+p{
+  font-size: 16px;  
+}
+
+ul{
+  padding-left: 20px;
+  padding-bottom: 48px;
+}
+
+
+ol{
+  padding-left: 20px;
+}
+
+.TextoAzul{
+  color: #0C51A7;
+}
+
+.TextoRoxo{
+  color: #591B98;
+}
+
+.TextoRosa{
+  color: #E5245E;
+}
+
+.TextoLaranja{
+  color: #E95E10;
+}
+
+#tf{
+  text-align: center;
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  margin: 36px 0;
+  background-color: #d9d9d9;
+}
+
+footer{
+  color: #333333;
+  padding-bottom: 48px;
+  padding-top: 65px;
+  
+  /* Ativa o Flexbox para alinhar itens na mesma linha */
+  display: flex;
+  align-items: center;   /* Alinha verticalmente no centro */
+  justify-content: center; /* Alinha horizontalmente no centro */
+  gap: 4px;              /* Cria um pequeno espaço entre o texto e o coração */
+}
+
+footer img {
+  display: inline;       /* Sobrescreve o display: block global apenas aqui */
+  width: 14px;
+  height: 12px;
+  border-radius: 0;      /* Remove o arredondamento se não quiser no ícone */
+}
+
+
+
+
+
+
